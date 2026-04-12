@@ -1,0 +1,23 @@
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.10.0
+torchvision==0.25.0
+torchaudio==2.10.0
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+pillow
+tqdm
+unsloth
+transformers
+ml_dtypes
+peft
+datasets
+accelerate
+trl
+bitsandbytes
+safetensors
+fastapi
+uvicorn
+python-multipart
