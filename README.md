@@ -18,7 +18,7 @@
 **Viz2Speech** is an accessibility solution specifically designed to assist visually impaired individuals in Indonesia. This project converts visual information from images into descriptive Indonesian text, which is then transformed into natural-sounding speech. The goal is to bridge the information gap in both digital and physical environments for those with visual limitations.
 
 ### Background
-In an increasingly visual world, visually impaired individuals often face significant barriers to understanding the context of images—from social media content to their immediate physical surroundings. Viz2Speech serves as a digital "eye" that doesn't just describe images, but "speaks" them to the user.
+In an increasingly visual world, visually impaired individuals often face significant barriers to understanding the context of images, from social media content to their immediate physical surroundings. Viz2Speech serves as a digital "eye" that doesn't just describe images, but "speaks" them to the user.
 
 ### Core Technologies
 The project integrates several state-of-the-art AI technologies:
