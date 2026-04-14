@@ -47,4 +47,10 @@ https://github.com/user-attachments/assets/d99753af-8b12-4846-9f05-a5b14b62777b
 
 ---
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+© 2026 Muhammad Abid Baihaqi Al Faridzi, Yoseph Kevin Hendrata, I Made Ryan Darmajaya
+
 *Created for the KCVanguard Final Project.*
