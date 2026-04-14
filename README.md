@@ -37,14 +37,13 @@ The project integrates several state-of-the-art AI technologies:
 ## 🚀 Documentation
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/99cc5ccd-0a0b-49af-a1b7-d31f04292e2b" />
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/6a6fa5ca-c500-4de7-ac14-54fa91952400" />
-<img width="1920" height="1080" alt="Screenshot From 2026-04-14 20-44-33" src="https://github.com/user-attachments/assets/6f4ffb87-7e1f-4e37-9b0f-3d564241300e" />
-<img width="1920" height="1080" alt="Screenshot From 2026-04-14 22-19-30" src="https://github.com/user-attachments/assets/6fbf386f-a9c9-42df-81bd-c4468100fcc1" />
-<img width="1920" height="608" alt="Screenshot From 2026-04-14 22-22-57 (Edited)" src="https://github.com/user-attachments/assets/fe0427a5-fad6-471f-b658-1b5c7a9b002b" />
+<img width="1920" height="1080" alt="Screenshot From 2026-04-15 00-05-09" src="https://github.com/user-attachments/assets/c2025b24-abcd-49ee-92e8-acff63c40568" />
+<img width="1920" height="949" alt="Screenshot From 2026-04-15 00-06-28" src="https://github.com/user-attachments/assets/204a8a86-5069-4306-a870-f68c430ead1d" />
 <br><br>
 
 _Example audio result:_
 
-https://github.com/user-attachments/assets/92dde224-d16a-4feb-9add-a84ebf85c7e5
+https://github.com/user-attachments/assets/d99753af-8b12-4846-9f05-a5b14b62777b
 
 ---
 
