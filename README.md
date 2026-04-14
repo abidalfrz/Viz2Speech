@@ -36,12 +36,15 @@ The project integrates several state-of-the-art AI technologies:
 
 ## 🚀 Documentation
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/99cc5ccd-0a0b-49af-a1b7-d31f04292e2b" />
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/6a6fa5ca-c500-4de7-ac14-54fa91952400" />
 <img width="1920" height="1080" alt="Screenshot From 2026-04-14 20-44-33" src="https://github.com/user-attachments/assets/6f4ffb87-7e1f-4e37-9b0f-3d564241300e" />
 <img width="1920" height="1080" alt="Screenshot From 2026-04-14 22-19-30" src="https://github.com/user-attachments/assets/6fbf386f-a9c9-42df-81bd-c4468100fcc1" />
 <img width="1920" height="608" alt="Screenshot From 2026-04-14 22-22-57 (Edited)" src="https://github.com/user-attachments/assets/fe0427a5-fad6-471f-b658-1b5c7a9b002b" />
-[generate-v2s.mp3](https://github.com/user-attachments/files/26719214/generate-v2s.mp3)
+<br><br>
 
+_Example audio result:_
 
+https://github.com/user-attachments/assets/92dde224-d16a-4feb-9add-a84ebf85c7e5
 
 ---
 
