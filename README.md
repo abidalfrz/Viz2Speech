@@ -35,8 +35,8 @@ The project integrates several state-of-the-art AI technologies:
 ---
 
 ## 🚀 Documentation
-> This section contains execution results, screenshots, or system logs from Viz2Speech.
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/99cc5ccd-0a0b-49af-a1b7-d31f04292e2b" />
 
 ---
 
-*Created for the Visual Intelligent Computing (Komputasi Cerdas Visual) course.*
+*Created for the KCVanguard Final Project.*
