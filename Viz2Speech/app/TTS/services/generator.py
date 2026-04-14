@@ -5,7 +5,7 @@ import numpy as np
 from .config import chatterbox_model
 import os   
 
-DEFAULT_REF = os.path.join(os.path.dirname(__file__), "suara_ryan.wav")
+DEFAULT_REF = os.path.join(os.path.dirname(__file__), "default_voice.wav")
 
 class VoiceGenerator:
     def __init__(self, model, device="cpu"):

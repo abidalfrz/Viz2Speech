@@ -168,8 +168,11 @@ __marimo__/
 # Gradio
 .gradio/
 
+# Unsloth
+unsloth_compiled_cache/
+
 *.mp3
-*.wav
+# *.wav
 *.ogg
 
 

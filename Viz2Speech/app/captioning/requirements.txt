@@ -22,3 +22,5 @@ fastapi
 uvicorn
 python-multipart
 num2words
+gradio
+ipykernel

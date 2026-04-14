@@ -22,9 +22,9 @@ async def generate_caption(image: UploadFile = File(...), mode: str = Form("fast
         print(f"Generating caption in {mode} mode...")
         print(f"Using device: {captioner.device}")
         if mode == "fast":
-            caption = await run_in_threadpool(captioner.generate_caption, pil_image, max_size=224, max_new_tokens=512)
+            caption = await run_in_threadpool(captioner.generate_caption, pil_image, max_size=360, max_new_tokens=512, quality=80)
         else:
-            caption = await run_in_threadpool(captioner.generate_caption, pil_image, max_size=720, max_new_tokens=1024)
+            caption = await run_in_threadpool(captioner.generate_caption, pil_image, max_size=960, max_new_tokens=1024, quality=90)
         
         return {"caption": caption}
         

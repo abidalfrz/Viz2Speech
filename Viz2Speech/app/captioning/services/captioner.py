@@ -12,7 +12,7 @@ class ImageCaptioner:
         self.qwen_tokenizer = qwen_tokenizer
         self.device = device
     
-    def compress_image(self, image, max_size=720, quality=85):
+    def compress_image(self, image, max_size=960, quality=90):
 
         image.thumbnail((max_size, max_size), Image.LANCZOS)
 
@@ -30,9 +30,9 @@ class ImageCaptioner:
             return match.group(1).strip()
         return raw_output.strip()
     
-    def generate_caption(self, image, max_size=720, max_new_tokens=1024):
+    def generate_caption(self, image, max_size=960, max_new_tokens=1024, quality=90):
         FastVisionModel.for_inference(self.qwen_model)
-        image = self.compress_image(image, max_size=max_size)
+        image = self.compress_image(image, max_size=max_size, quality=quality)
         REASONING_START = "<THINKING>"
         REASONING_END   = "</THINKING>"
         CAPTION_START   = "<CAPTION>"

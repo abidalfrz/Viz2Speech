@@ -338,7 +338,7 @@ with gr.Blocks(
         fn=disable_btn,
         inputs=None,
         outputs=submit_button,
-        queue=False # Langsung eksekusi tanpa menunggu antrean utama
+        queue=False
     ).then(
         fn=image_to_speech,
         inputs=[image_input, audio_input, caption_mode],
@@ -349,11 +349,6 @@ with gr.Blocks(
         outputs=submit_button,
         queue=False
     )
-    # submit_button.click(
-    #     fn=image_to_speech,
-    #     inputs=[image_input, audio_input, caption_mode],
-    #     outputs=[output_caption, output_audio],
-    # )
 
 if __name__ == "__main__":
     demo.launch(share=True)
