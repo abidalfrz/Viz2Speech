@@ -4,6 +4,7 @@ import tempfile
 import os
 import re
 from num2words import num2words
+from pyngrok import ngrok
 
 CAPTIONING_API_URL = "http://127.0.0.1:8001/caption"
 TTS_API_URL = "http://127.0.0.1:8000/generate"
@@ -264,8 +265,6 @@ header_html = """
 
 with gr.Blocks(
     title="Viz2Speech - Image to Indonesian Speech",
-    css=custom_css,
-    theme=gr.themes.Base(font=gr.themes.GoogleFont("Inter")),
 ) as demo:
 
     gr.HTML(header_html)
@@ -351,4 +350,7 @@ with gr.Blocks(
     )
 
 if __name__ == "__main__":
-    demo.launch(share=True)
+    ngrok.set_auth_token("YOUR_NGROK_TOKEN")
+    public_url = ngrok.connect(7860)
+    print(f"Public URL: {public_url}")
+    demo.launch(server_name="127.0.0.1", server_port=7860, share=False, css=custom_css, theme=gr.themes.Base(font=gr.themes.GoogleFont("Inter")))
