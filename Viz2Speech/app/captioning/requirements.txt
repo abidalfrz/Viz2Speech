@@ -9,7 +9,7 @@ seaborn
 scikit-learn
 pillow
 tqdm
-unsloth
+unsloth==2026.4.1
 transformers
 ml_dtypes
 peft
