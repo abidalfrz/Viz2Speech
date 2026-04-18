@@ -264,7 +264,7 @@ header_html = """
 """
 
 with gr.Blocks(
-    title="Viz2Speech - Image to Indonesian Speech",
+    title="Viz2Speech - Image to Indonesian Speech"
 ) as demo:
 
     gr.HTML(header_html)
